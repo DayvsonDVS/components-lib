@@ -1,19 +1,8 @@
 {
   "name": "components-lib-dvs",
   "private": false,
-  "version": "0.0.1",
-  "files": [
-    "dist"
-  ],
-  "main": "./dist/components-lib.umd.js",
-  "module": "./dist/components-lib.es.js",
-  "exports": {
-    ".": {
-      "import": "./dist/components-lib.es.js",
-      "require": "./dist/components-lib.umd.js"
-    },
-    "./dist/style.css": "./dist/style.css"
-  },
+  "version": "0.0.2",
+  "main": "./src/index.js",
   "type": "module",
   "scripts": {
     "dev": "vite",
