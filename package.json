@@ -1,0 +1,30 @@
+{
+  "name": "components-lib-dvs",
+  "private": false,
+  "version": "0.0.0",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/components-lib.umd.js",
+  "module": "./dist/components-lib.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/components-lib.es.js",
+      "require": "./dist/components-lib.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "vite": "^3.1.0"
+  }
+}
